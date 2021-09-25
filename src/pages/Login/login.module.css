@@ -1,0 +1,25 @@
+.login-page {
+    background: #2d3a4b;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-wrap {
+    width: 520px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title {
+    font-size: 26px;
+    color: #eee;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login-box {}

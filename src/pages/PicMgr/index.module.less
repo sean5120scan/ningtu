@@ -1,0 +1,133 @@
+.red {
+  color: #c90;
+}
+
+.pic-page {
+  display: flex;
+}
+
+.tree-wrap {
+  width: 160px;
+  background: #ccc;
+}
+
+.content-wrap {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.pic-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: #ccc;
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.pic-wrap:after {
+  content: '';
+  flex: auto;
+}
+
+.img-item-wrap {
+  width: 202px;
+  height: 180px;
+  background: #fff;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-item-wrap:hover .check-btn {
+  display: block;
+}
+
+.check-btn {
+  cursor: pointer;
+  display: inline;
+  padding: 6px 12px;
+  font-size: 12px;
+  color: #fff;
+  background: #1890ff;
+  border-radius: 2px;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 1;
+  display: none;
+}
+
+.img-item {
+  object-fit: cover;
+}
+
+.checkbox-item {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  z-index: 1;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding-left: 12px;
+  position: relative;
+}
+
+.search-ipt {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+}
+
+.pager {
+  margin-top: 10px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tree-item-wrap {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.tree-title {
+  width: 80%;
+}
+
+.tree-more-icon {
+  flex: 1;
+}
+
+.vis {
+  width: 240px;
+  height: 0;
+}
+
+.oper-btns {
+  padding-bottom: 12px;
+}
+
+.menu-item {
+}
+
+:global {
+  .ant-tree .ant-tree-node-content-wrapper {
+    height: auto;
+    line-height: inherit;
+    padding: 6px 0;
+  }
+
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background: #f7f7f7;
+  }
+}

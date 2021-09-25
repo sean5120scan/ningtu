@@ -1,0 +1,21 @@
+/* 对齐设置 */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hRcenter {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ant-message-notice-content {
+    min-width: 220px
+}
+
+.sidebar-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
